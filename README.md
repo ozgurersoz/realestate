@@ -12,7 +12,9 @@ Before starting, make sure you have the following tools installed on your system
 
 1. Install Tuist by running the following command in your terminal:
 
+```
 curl -Ls https://install.tuist.io | bash
+```
 
 2. Run `tuist fetch` command to download all the necessary dependencies used in the project.
 

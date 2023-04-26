@@ -15,10 +15,6 @@ let project = Project.packageFramework(
             path: "../DataModels"
         ),
         .project(
-            target: "DesignSystem",
-            path: "../DesignSystem"
-        ),
-        .project(
             target: "UIComponents",
             path: "../UIComponents"
         ),

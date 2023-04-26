@@ -21,16 +21,8 @@ let project = Project(
                     path: "Packages/SearchFeature"
                 ),
                 .project(
-                    target: "DesignSystem",
-                    path: "Packages/DesignSystem"
-                ),
-                .project(
                     target: "DataModels",
                     path: "Packages/DataModels"
-                ),
-                .project(
-                    target: "UIComponents",
-                    path: "Packages/UIComponents"
                 )
             ]
         ),

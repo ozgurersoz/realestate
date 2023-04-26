@@ -8,13 +8,10 @@ import ProjectDescriptionHelpers
 let project = Project.packageFramework(
     name: "ItemDetailFeature",
     dependencies: [
+        .external(name: "Dependencies"),
         .project(
             target: "DataModels",
             path: "../DataModels"
-        ),
-        .project(
-            target: "DesignSystem",
-            path: "../DesignSystem"
         ),
         .project(
             target: "UIComponents",

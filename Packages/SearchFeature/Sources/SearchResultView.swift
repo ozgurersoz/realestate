@@ -5,7 +5,6 @@
 import SwiftUI
 import DataModels
 import Dependencies
-import DesignSystem
 import UIComponents
 import ItemDetailFeature
 
@@ -36,6 +35,7 @@ public struct SearchResultView: View {
                                         .sheet(isPresented: $viewModel.showPropertyDetail) {
                                             ItemDetailView(viewModel: viewModel.prepareItemDetailViewModel(itemId: property.id))
                                         }
+                                        .accentColor(Color.black)
                                     } else {
                                         PropertyView(property: property)
                                     }

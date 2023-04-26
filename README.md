@@ -22,4 +22,4 @@ curl -Ls https://install.tuist.io | bash
 
 ## Running the project
 
-After generating the Xcode project, navigate to the project directory in your terminal and open the `.xcworkspace` file. You can then run the project on a simulator or a physical device.
+After generating the Xcode project, navigate to the project directory in your terminal and open the `.xcworkspace` file then select `CoolRealEstateApp` scheme. You can then run the project on a simulator or a physical device.

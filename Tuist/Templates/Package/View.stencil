@@ -1,0 +1,24 @@
+//
+//  Copyright © 2023 Lvls Digital AB. All rights reserved.
+//
+
+import SwiftUI
+
+public struct {{ name }}View: View {
+
+    public init() { }
+    
+    public var body: some View {
+        VStack {
+            Text("Hello Dear!")
+        }
+    }
+}
+
+#if DEBUG
+struct {{ name }}View_Previews: PreviewProvider {
+    static var previews: some View {
+        {{ name }}View()
+    }
+}
+#endif
